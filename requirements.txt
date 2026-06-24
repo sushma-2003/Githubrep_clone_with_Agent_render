@@ -1,0 +1,37 @@
+langchain
+langchain-core
+langchain-community
+
+langchain-groq
+
+langchain-chroma
+
+langchain-huggingface
+
+chromadb
+
+fastembed
+
+gitpython
+
+python-dotenv
+
+rank-bm25
+
+nltk
+
+# Web framework
+fastapi
+uvicorn
+python-multipart
+python-socketio
+websockets
+
+# Chroma imports OpenTelemetry at startup. Keep these aligned to avoid
+# runtime import errors from mixed transitive versions.
+opentelemetry-api==1.42.1
+opentelemetry-sdk==1.42.1
+opentelemetry-proto==1.42.1
+opentelemetry-exporter-otlp-proto-common==1.42.1
+opentelemetry-exporter-otlp-proto-grpc==1.42.1
+opentelemetry-exporter-otlp-proto-http==1.42.1
